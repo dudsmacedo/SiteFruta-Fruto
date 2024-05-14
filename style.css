@@ -1,0 +1,117 @@
+.imagem-carrossel{
+    object-fit: cover;
+    object-position: 0  60%;
+    height: 30px;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:azure;
+  }
+  
+  .raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+ 
+ .jersey-20-charted-regular {
+    font-family: "Jersey 20 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  .honk-uniquifier{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+ }  
+ 
+ .fonte-titulo{
+    font-family: 'Pacifico', cursive;
+  }
+ 
+ .cor-especial{
+    color: darkred;
+ }
+ 
+ .borda-cor-especial{
+    border-color: darkred;
+ }
+ 
+ .botao-cor-especial{
+    background-color: rgb(18, 69, 255);
+    color: rgb(255, 255, 255);
+ }
+ 
+ .botao-cor-especial:hover{
+    background-color: rgb(139, 0, 0);
+   color: rgb(255, 255, 255);
+ }
+
+ .card-posicao-imagem{
+   object-fit: cover;
+   height: 200px;
+ }
+
+.card-largura {
+   width: rem;
+   margi
+}
+
+.card{
+   position: relative;
+   max-width: 300px;
+   height: 300px;
+   margin-top: 10px; 
+   margin-right: 20px; 
+   margin-bottom: 10px; 
+   margin-left: 20px; 
+   border: 1px solid #770101;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.card-body{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   padding: 10px;
+   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card-text {
+   font-size: 14px;
+   color: #333;
+   text-align: center; 
+   margin-top: 10px; 
+}
+
+.gallery {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.person {
+   text-align: center;
+}
+
+.person img {
+   max-width: 100%;
+   border-radius: 50%;
+}
+
+.person p {
+   font-size: 14px;
+   color: #000000;
+}
